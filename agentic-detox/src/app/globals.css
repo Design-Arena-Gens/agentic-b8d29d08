@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(226, 232, 240);
+  background: radial-gradient(
+      circle at top,
+      rgba(56, 189, 248, 0.12),
+      transparent 55%
+    ),
+    linear-gradient(160deg, rgb(2, 6, 23), rgb(2, 45, 71));
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
